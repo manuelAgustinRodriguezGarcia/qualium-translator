@@ -1,0 +1,72 @@
+:root {
+  /* Airbnb-inspired tokens from DESIGN.md */
+  --q-canvas: #ffffff;
+  --q-surface-soft: #f7f7f7;
+  --q-surface-strong: #f2f2f2;
+  --q-ink: #222222;
+  --q-body: #3f3f3f;
+  --q-muted: #6a6a6a;
+  --q-hairline: #dddddd;
+  --q-hairline-soft: #ebebeb;
+  --q-border-strong: #c1c1c1;
+  --q-primary: #ff385c;
+  --q-primary-active: #e00b41;
+  --q-primary-disabled: #ffd1da;
+  --q-on-primary: #ffffff;
+  --q-error: #c13515;
+  --q-warning: #7a4d00;
+  --q-success: #0b6b3a;
+
+  --q-radius-sm: 8px;
+  --q-radius-md: 14px;
+  --q-radius-full: 9999px;
+
+  --q-space-2: 2px;
+  --q-space-4: 4px;
+  --q-space-8: 8px;
+  --q-space-12: 12px;
+  --q-space-16: 16px;
+  --q-space-24: 24px;
+  --q-space-32: 32px;
+  --q-space-48: 48px;
+
+  --q-shadow-float: rgba(0, 0, 0, 0.02) 0 0 0 1px, rgba(0, 0, 0, 0.04) 0 2px 6px 0,
+    rgba(0, 0, 0, 0.1) 0 4px 8px 0;
+
+  --q-font-sans: 'Airbnb Cereal VF', Circular, -apple-system, system-ui, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --q-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+
+  color-scheme: light;
+  font-family: var(--q-font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--q-body);
+  background: var(--q-canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: var(--q-canvas);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--q-ink);
+  outline-offset: 2px;
+}
